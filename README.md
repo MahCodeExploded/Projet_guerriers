@@ -14,7 +14,14 @@ Spécificités :
 - A chaque round, il y a une chance de 1% pour que les dieux accordent un artefact (une arme très puissante) à l'un des avatars. Cet avatar conservera l'arme jusqu'à sa mort ou à sa victoire dans le dernier combat du programme.
 - Si un avatar détenteur d'artefact remporte son premier combat, l'artefact gagne un "spell", une capacité spéciale très puissante qui est alors utilisée à la place de l'attaque de l'avatar.
 
-Points de la consigne :
+Spécificités de classes :
+
+- Un voleur vole de l'or à l'avatar ou au PNJ qu'il salue.
+- Un voleur a une  attaque très faible, mais il a 33% de chance de voir son attaque devenir un coup critique qui fait 3000% de dégâts.
+- Un mage consomme du mana en attaquant à coups de boules de feu. S'il n'a plus de mana et qu'il est à court de potions de mana, il attaquera en donnant un coup de bâton (moins puissant mais ne consomme pas de mana)
+- Un PNJ peut soit être un marchand qui propose de vendre des potions lors de ses interactions avec les avatars, soit être un spectateurs qui se contente de discuter avec eux.
+
+Points de la consigne accomplis :
 
 Chaque avatar a les attributs :
 - nom ("name")
