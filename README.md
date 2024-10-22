@@ -29,7 +29,7 @@ Points de la consigne accomplis :
 - vie ("health")
 - magie ("mana")
 - gold ("gold")
-- (d'autres attibuts non-demandés dans la consigne sont présents)
+- (d'autres attributs non-demandés dans la consigne sont présents)
 
 ► Chaque avatar peut (entre autres choses):
 - saluer via la méthode salute() (la classe voleur vole de l'or en même temps)
@@ -41,5 +41,8 @@ Points de la consigne accomplis :
 - Interface : la classe Greater_Item dont hérite la classe Artefact
 - Association : la méthode attack prend un autre avatar en argument
 - Composition : chaque instance de la classe Artefact a un objet de classe Charm qui la compose
-- Aggrégation : chaque instance de la classe Artefact peut potentiellement se voir aggréger un objet de la classe Spell
+- Agrégation : chaque instance de la classe Artefact peut potentiellement se voir agréger un objet de la classe Spell
 
+NOTE : 
+- Les tests unitaires se démarrent en lançant le fichier "unit_test.py"
+- Le programme en lui-même (sans les tests) se démarre en lançant le fichier "projet_avatar.py"
