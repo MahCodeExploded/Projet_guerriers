@@ -17,21 +17,22 @@ Spécificités :
 Points de la consigne :
 
 Chaque avatar a les attributs :
--nom ("name")
--puissance ("power")
--vie ("health")
--magie ("mana")
--gold ("gold")
--(d'autres attibuts non-demandés dans la consigne sont présents)
+- nom ("name")
+- puissance ("power")
+- vie ("health")
+- magie ("mana")
+- gold ("gold")
+- (d'autres attibuts non-demandés dans la consigne sont présents)
 
 Chaque avatar peut (entre autres choses):
--saluer via la méthode salute()
--attaquer via la méthode attack()
--boire une potion via la méthode drink_potion()
+- saluer via la méthode salute()
+- attaquer via la méthode attack()
+- boire une potion via la méthode drink_potion()
 
-Classe abstraite : la classe Avatar
-Interface : la classe Greater_Item dont hérite la classe Artefact
-Association : la méthode attack prend un autre avatar en argument
-Composition : chaque instance de la classe Artefact a un objet de classe Charm qui la compose
-Aggrégation : chaque instance de la classe Artefact peut potentiellement se voir aggréger un objet de la classe Spell
+Relations :
+- Classe abstraite : la classe Avatar
+- Interface : la classe Greater_Item dont hérite la classe Artefact
+- Association : la méthode attack prend un autre avatar en argument
+- Composition : chaque instance de la classe Artefact a un objet de classe Charm qui la compose
+- Aggrégation : chaque instance de la classe Artefact peut potentiellement se voir aggréger un objet de la classe Spell
 
