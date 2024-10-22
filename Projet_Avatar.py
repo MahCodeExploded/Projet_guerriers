@@ -279,13 +279,8 @@ class NPC(Avatar) :#la classe NPC
     def buy(self, target):
         print(f"{self.name} dit : 'je n'achète rien !'")
 
-class Greater_Item: #l'interface des items spéciaux dont dépend les artefacts
-    def __init__(self, name:str, charm_name:str, charm_power:int, spell_list:list):
-        self.name = name
-        self.charm = Charm(charm_name, charm_power)
-        self.spell = None
-        self.spell_list = spell_list
-
+class Greater_Item(ABC): #l'interface des items spéciaux dont dépend les artefacts
+    
     @abstractmethod
     def appear(self, target) :
         pass
@@ -300,7 +295,7 @@ class Greater_Item: #l'interface des items spéciaux dont dépend les artefacts
         pass
 
 class Artefact(Greater_Item):#la classe artefact, des items puissants pour les héros
-    def __init__(self, name, charm_name, charm_power, spell_list):
+    def __init__(self, name:str, charm_name:str, charm_power:int, spell_list:list):
         self.name = name
         self.charm = Charm(charm_name, charm_power)
         self.spell = None
