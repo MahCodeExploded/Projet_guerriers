@@ -25,7 +25,7 @@ Chaque avatar a les attributs :
 - (d'autres attibuts non-demandés dans la consigne sont présents)
 
 Chaque avatar peut (entre autres choses):
-- saluer via la méthode salute()
+- saluer via la méthode salute() (la classe voleur vole de l'or en même temps)
 - attaquer via la méthode attack()
 - boire une potion via la méthode drink_potion()
 
