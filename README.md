@@ -23,7 +23,7 @@ Spécificités de classes :
 
 Points de la consigne accomplis :
 
-Chaque avatar a les attributs :
+► Chaque avatar a les attributs :
 - nom ("name")
 - puissance ("power")
 - vie ("health")
@@ -31,12 +31,12 @@ Chaque avatar a les attributs :
 - gold ("gold")
 - (d'autres attibuts non-demandés dans la consigne sont présents)
 
-Chaque avatar peut (entre autres choses):
+► Chaque avatar peut (entre autres choses):
 - saluer via la méthode salute() (la classe voleur vole de l'or en même temps)
 - attaquer via la méthode attack()
 - boire une potion via la méthode drink_potion()
 
-Relations :
+► Relations :
 - Classe abstraite : la classe Avatar
 - Interface : la classe Greater_Item dont hérite la classe Artefact
 - Association : la méthode attack prend un autre avatar en argument
