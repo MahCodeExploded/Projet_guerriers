@@ -43,6 +43,5 @@ Points de la consigne accomplis :
 - Composition : chaque instance de la classe Artefact a un objet de classe Charm qui la compose
 - Agrégation : chaque instance de la classe Artefact peut potentiellement se voir agréger un objet de la classe Spell
 
-NOTE : 
-- Les tests unitaires se démarrent en lançant le fichier "unit_test.py"
-- Le programme en lui-même (sans les tests) se démarre en lançant le fichier "projet_avatar.py"
+► Tests unitaires 
+Note : Les tests unitaires se démarrent en lançant le fichier "unit_test.py". Le programme en lui-même (sans les tests) se démarre en lançant le fichier "projet_avatar.py"
